@@ -38,9 +38,10 @@ nav {
     margin-top: 20px;
     /*margin-bottom: 10px;*/
     padding-bottom: auto;
-    background: #4b816b;
+    background: #777;
     /*padding-top: 100px;
     */
+    overflow: auto;
 
 }
 
@@ -53,6 +54,8 @@ nav {
     margin-bottom: 0px;
     text-align: top;
     width: 495px;
+    float: left;
+    
 
 }
 
@@ -60,14 +63,44 @@ nav {
     background-color: #959e9a;
     margin-left: 10px;
     margin-right: 10px;
-
+    
     padding-top: 100px;
     padding-bottom: 100px;
     font-size: 18px;
 
 }
 
+aside {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: #ebebeb;
+    width: 300px;
+    padding: 20px;
+    /* position: fixed; */
+    float:right;
+    padding-bottom: 293.5px;
+}
+
 h3 {
     text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+#footer {
+    margin-top: 10px;
+    background: #ebebeb;
+    bottom: 0;
+    margin-left: 65px;
+    margin-right: 65px;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
 
 }
